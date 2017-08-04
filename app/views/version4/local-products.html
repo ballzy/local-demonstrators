@@ -1,8 +1,8 @@
 {% extends '_layouts/layout_2-3.html' %}
 
-{% block page_title %}Local Digital Health Products{{serviceName}}{% endblock %}
+{% block page_title %}Find and Access Local Digital Health Products{{serviceName}}{% endblock %}
 
-{% block pageTitle %}Local Digital Health Products{% endblock %}
+{% block pageTitle %}Find and Access Local Digital Health Products{% endblock %}
 
 {% block content %}
 
@@ -21,6 +21,21 @@
 	font-size: 1.1em;
 }
 
+.l-product {
+	display: inline-block;
+	width: 25%;
+	vertical-align: top;
+	padding-top: 10px;
+}
+.l-product img {
+	max-width: 100%;
+}
+
+.r-product {
+	display: inline-block;
+	width: 70%;
+}
+
 </style>
 
 
@@ -29,22 +44,41 @@
 
 	<div class="local-product">
 
-		<h3 class="heading-large"><a href="#">Southampton showcases how PHRs benefit patients</a></h2>
-		<p>Speed up your treatment and reduce hospital visits with the pioneering use of personal health records by University of Southampton NHS Foundation Trust.</p>
+		<div class="l-product">
+			<img class="media-object app-icon" src="/images/Southampton.png" alt="Southampton">
+		</div>
+
+		<div class="r-product">
+			<h3 class="heading-large"><a href="#">Southampton showcases how PHRs benefit patients</a></h2>
+			<p>Speed up your treatment and reduce hospital visits with the pioneering use of personal health records by University of Southampton NHS Foundation Trust.</p>
+		</div>
 
 	</div>
 
 	<div class="local-product">
 
-		<h3 class="heading-large"><a href="https://www.patientsknowbest.com/sandwell-and-west-birmingham-hospitals-nhs-trust.html">Sandwell and West Birmingham Patient Knows Best</a></h2>
-		<p>If you have Type 1 diabetes, personal health records could add value to your care, promote self-management and potentially enhance the relationship with your healthcare team.</p>
+		<div class="l-product">
+			<img class="media-object app-icon" src="/images/pkb.jpg" alt="Patient Knows Best">
+		</div>
+
+		<div class="r-product">
+			<h3 class="heading-large"><a href="https://www.patientsknowbest.com/sandwell-and-west-birmingham-hospitals-nhs-trust.html">Sandwell and West Birmingham Patient Knows Best</a></h2>
+			<p>If you have Type 1 diabetes, personal health records could add value to your care, promote self-management and potentially enhance the relationship with your healthcare team.</p>
+		</div>
 
 	</div>
 
 	<div class="local-product">
 
-		<h3 class="heading-large"><a href="https://www.bristolhospital.org/About-Bristol-Hospital/Patient-Health-Portal.aspx">Bristol Patient Health Portal</a></h2>
-		<p>You can now access, download and print your health information with the Bristol Hospital Patient Health Portal.</p>
+		<div class="l-product">
+			<img class="media-object app-icon" src="/images/Bristol.jpg" alt="Bristol Patient Health Portal">
+		</div>
+
+		<div class="r-product">
+			<h3 class="heading-large"><a href="https://www.bristolhospital.org/About-Bristol-Hospital/Patient-Health-Portal.aspx">Bristol Patient Health Portal</a></h2>
+			<p>You can now access, download and print your health information with the Bristol Hospital Patient Health Portal.</p>
+		</div>
+
 	</div>
 
 </div>
