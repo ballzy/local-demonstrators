@@ -110,6 +110,7 @@ h3, .heading-large,
 
 body, pre.user-input {
   color: #0b0c0c;
+  font-family: "Frutiger W01", Arial, san-serif;
 }
 
 .baseline {
@@ -523,8 +524,8 @@ hr {
 }
 
 .service-alert-inner {
-  padding-bottom: 8px;
-  padding-top: 8px;
+  padding-bottom: 16px;
+  padding-top: 16px;
   font-size: 16px;
 }
 
