@@ -512,8 +512,8 @@ hr {
 }
 
 .service-alert {
-  background-color: #FFB81C;
-  color: #00365D;
+  background-color: #fada8b;
+  color: #000;
   font-size: 14px;
   line-height: 16px;
 }
@@ -525,14 +525,14 @@ hr {
 .service-alert-inner {
   padding-bottom: 8px;
   padding-top: 8px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .service-alert-inner p {
   padding: 0;
   margin: 0;
   display: table;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .service-alert-inner span {
@@ -931,17 +931,15 @@ details summary:focus {
   box-shadow: 0 0 0 5px #F7E214;
 }
 
-html {
-  background-color: #d9e1e2;
-}
-
 #global-footer {
   margin-top: 64px;
   padding-top: 16px;
   padding-bottom: 16px;
   min-height: 80px;
   border-top: 1px solid #cbd6d7;
-  background-color: #d9e1e2;
+  background-color: #005eb8;
+  border-top: 4px solid #003087;
+  color: #fff;
 }
 
 .footer-container {
