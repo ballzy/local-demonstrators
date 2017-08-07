@@ -1,0 +1,53 @@
+{% extends '_layouts/layout_2-3.html' %}
+
+{% block page_title %}Find and Access Local Digital Health Products{{serviceName}}{% endblock %}
+
+{% block pageTitle %}Find and Access Local Digital Health Products{% endblock %}
+
+{% block content %}
+
+<style>
+
+.local-product {
+	border: 10px solid #e8edee;
+	padding: 10px;
+	background-color: #fff;
+	margin-bottom: 1em;
+	font-size: 0.9em;
+}
+
+.local-product h3.heading-large {
+	margin-top: 0;
+	font-size: 1.1em;
+}
+
+.l-product {
+	display: inline-block;
+	width: 25%;
+	vertical-align: top;
+	padding-top: 10px;
+}
+.l-product img {
+	max-width: 100%;
+}
+
+.r-product {
+	display: inline-block;
+	width: 70%;
+}
+
+</style>
+
+
+<div class="first-item">
+	<h2 class="heading-large">Disclaimer</h2>
+	<p>NHS Digital or the approving body is not the owner, manager or supplier of local digital health products. NHS Digital or the approving body has set standards for reviewing the locally commissioned products, but this does not mean that NHS Digital or the approving body has itself reviewed all aspects of each product, or version of the same product. NHS Digital or the approving body is not responsible or liable for any advice, or any other information, services or products that you obtain through the use of the local digital health products.<p>
+	<p>This local digital health products page is intended to provide supportive relevant information only. It does not provide medical advice and it is not a substitute for a medical consultation. For less urgent health needs, contact your GP or local pharmacist in the usual way. If you have an urgent medical need you should call 111. If a life is at risk, call 999.</p>
+</div>
+
+<div class="form-group">
+	<a href="local-products">Back to Local Digital Health Products</a>
+</div>
+{% endblock %}
+
+{% block footer %}{% endblock %}
