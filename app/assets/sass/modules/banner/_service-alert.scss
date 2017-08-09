@@ -1,12 +1,10 @@
 .service-alert {
-  background-color: #fada8b;;
+  background-color: #f0f4f5;
   color: #000;
   font-size: $smallprint;
   line-height: $leading;
 
-  a {
-    color: $service-alert-secondary;
-  }
+
 }
 
 .service-alert-inner {
@@ -21,6 +19,9 @@
   padding: 0;
   margin: 0;
   display: table;
+  font-size: 16px;
+}
+.service-alert-inner a {
   font-size: 16px;
 }
 
