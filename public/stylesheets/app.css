@@ -519,10 +519,6 @@ hr {
   line-height: 16px;
 }
 
-.service-alert a {
-  color: #00365D;
-}
-
 .service-alert-inner {
   padding-bottom: 16px;
   padding-top: 16px;
@@ -533,6 +529,10 @@ hr {
   padding: 0;
   margin: 0;
   display: table;
+  font-size: 16px;
+}
+
+.service-alert-inner a {
   font-size: 16px;
 }
 
@@ -952,6 +952,56 @@ details summary:focus {
   display: block;
   width: 79px;
   height: 32px;
+}
+
+.global-footer__inner {
+  margin: 0 16px;
+  max-width: 960px;
+  padding-bottom: 96px;
+  padding-top: 32px;
+}
+
+@media (min-width: 925px) {
+  .global-footer__inner {
+    margin: 0 32px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .global-footer__inner {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 925px) {
+  .global-footer__inner {
+    padding-bottom: 128px;
+    padding-top: 48px;
+  }
+}
+
+.global-footer__inner:before {
+  background: url("../beta/images/logotype-nhs-colour.c64f757a2004.png") no-repeat;
+  background-size: contain;
+  content: "";
+  display: block;
+  height: 32px;
+  margin-bottom: 32px;
+  text-indent: -999em;
+  width: 79px;
+}
+
+@media (min-width: 925px) {
+  .global-footer__inner:before {
+    margin-bottom: 48px;
+  }
+}
+
+@media (min-resolution: 192dpi) {
+  .global-footer__inner:before {
+    background-image: url("../beta/images/logotype-nhs-colour@2x.c6447191d322.png");
+    background-size: 79px 32px;
+  }
 }
 
 .-date div {
